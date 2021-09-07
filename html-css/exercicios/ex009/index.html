@@ -5,33 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icon-dado.ico" type="image/x-icon">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-        <h2>código-fonte/ Pré-formatação</h2>
-            <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-            num = int(input('Digite um número'))
-            if num % 2 == 0:
-                print(f'O número {num} é PAR')
-            else:
-                print(f'O número {num} é ÍMPAR')
-            print('Fim do programa')
-        </code>
-    </pre>
-    <h2>Citações simples</h2>
-        <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q> </p> 
-    <h2>Citações completas</h2>
-        <p>Segundo Jeff Moble, no seu livro HTML para Leigos: </p>
-        <blockquote cite=""> <!-- 'cite' serve para que os mecânismos de busca saibam que a frase em questão é de referência dessa URL. -->
-            A diferença entre elementos inline e um bloco de texto é importante. Os elementos em HTML neste capítulo descrevem os blocos do texto.
-        </blockquote>
-    <h2>Abreviação</h2>
-        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-    <h2>Texto invertido</h2>
-        <p> 
-            <bdo dir="ltr">Estou aprendendo a criar coisas em HTML</bdo></p>
-    </body>
+    <h1>trabalhando com lista</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="1">
+        <li>Acordar
+        <li>Ligar para o João
+        <li>Tomar café
+        <li>Tomar banho
+        <li>Ir para o serviço
+    </ol>
+    <h2>Listas não ordenadas</h2> 
+    <ul> <!-- disc, circle ou square -->
+        <li>Pão</li>           
+        <li>Beterraba</li>
+        <li>Queijo</li>
+        <li>Pipoca</li>
+        <li>Salgadinho</li>
+        <li>Carne</li>
+    </ul>
+</body>
 </html>
