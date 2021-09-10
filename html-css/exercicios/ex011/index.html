@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Tente abrir essa imagem em vários dispostivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-media.png" type="image/png">
+        <img src="imagens/imagem-grande.png" alt="Imagem flexível">
+
+        <h1>Reproduzindo áudio</h1>
+        <p>Apredendo a como reproduzir um áudio em HTML5</p>
+        <p>Escute a música, talvez você encontre algo nela.</p>
+        <!-- <audio src="midia/symphony.mp3" controls></audio> -->
+        <!-- MP3 WAV(wav se torna inviável por ser muito pesado) OGG -->
+        <audio preload="metadata" controls loop> 
+            <source src="midia/symphony.mp3" type="audio/mpeg">
+            <source src="midia/symphony.ogg" type="audio/ogg">
+            <source src="midia/symphony.wav" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/symphony.mp3">Clique aqui para baixar o arquivo em MP3</a> </p> 
+        </audio>
+    </picture>
+    <h1></h1>
+</body>
+</html>
