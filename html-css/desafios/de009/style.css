@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    background-color: #0F5FA6;
+}
+h1 {
+
+}
+h1.titulo#secundario {
+    width: auto;
+    
+}
