@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in (polegada), px, pt, pc
+            Medidas Relativar
+            em (relativo ao tamanho atual da fonte), ex (relativo a altura x de uma fonte), rem (relativo ao rot que tá no body), vw (relativo ao tamanho da viewport), vh (relativo a altura da viewport), %
+            16px geralmente = 1em (usar px ou em)
+            */
+            
+            /*font-size: 16px; 
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;*/
+
+            /* weight (peso), width (largura), height (altura) */
+            
+            /* tipos de peso: lighter, normal, bold, bolder. Ou pode alterar 
+            numericamente usando números de 100 a 900 (pulando de 100 em 100)*/
+        }
+
+        h1 {
+            /*font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            /* shorthand font
+            font-style => font-wieght => font-size => font-family
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work-sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trablhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odit repudiandae in natus dolorum! Tempora est odio ex id omnis corrupti nostrum fugit suscipit, voluptas soluta unde, aliquid velit! Nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde ipsam reiciendis quod voluptatibus architecto assumenda quae doloribus, eveniet quisquam tempore, eum vero. Ipsum ex nostrum libero inventore. Blanditiis, veniam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque numquam at dignissimos excepturi id consequuntur ut autem, accusantium, iure enim aspernatur tempora neque aperiam soluta ab quaerat adipisci sint.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates doloremque, autem eum ab dicta id, quae praesentium molestiae pariatur architecto illo maiores facilis. Explicabo quasi ut sint eaque odio.</p>
+</body>
+</html>
