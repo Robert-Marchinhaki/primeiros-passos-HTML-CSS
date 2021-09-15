@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Georgia, sans-serif;
+}
+header {
+    background-color: #FEC63E;
+}
+header > img {
+    margin: 10px 100px auto;
+}
+header > nav {
+    display: inline;
+    margin: auto 350px;
+}
+nav > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+div#introducao {
+    display: inline-block;
+    
+    font-size: 24px;
+}
