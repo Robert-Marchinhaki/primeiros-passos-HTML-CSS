@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf),url(__MACOSX/fontes/._idroid.otf);
+}
+
+
+html{
+    background: #11D97C;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header {
+    background-image: linear-gradient(to bottom, #0ABF8C, #027560 60%);
+    color: white;
+    padding: 1px;
+    margin: auto;
+    text-align: auto;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.651);
+    
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p {
+    text-align: justify;
+    font: 'idroid';
+    font-size: 1em;
+}
+#menu > ul{
+    padding: 0px;
+    margin: 80px 0px 57px 1px;
+    width: 322px;
+    background-color: #11d97c83;
+    list-style: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.37);
+}
+#menu > ul > li {
+    display: inline;
+}
+#menu > ul > li > a {
+    padding: 2px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(51, 78, 65);
+}
+#menu > ul > li:hover {
+    background-color: #11D97C;
+    border-bottom: 3px solid #2d5324be;
+    text-decoration: dotted;
+}
+main {
+    background-color: rgba(56, 82, 65, 0.904);
+    width: 900px;
+    height: auto;
+    color: white;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+main picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    width: 909px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+}
+footer > h2 {
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px 2px 3px 4px;
+}
+.final {
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 5px;
+    margin: 0px;
+
+}
+#cupcake {
+    list-style: none;
+}
+#jelly {
+    list-style: none;
+}
